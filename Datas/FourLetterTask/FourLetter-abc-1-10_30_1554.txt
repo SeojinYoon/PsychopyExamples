@@ -1,0 +1,36 @@
+key	RT	AbsTime
+return	1011.9	4260.2
+p	1169.8	4418.1
+p	2677.8	5926.1
+q	2843.2	6091.5
+ prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+4.6279 	INFO 	Subject abc, Session 1
+4.6279 	INFO 	sequence 0: ['R', 'X', 'V', 'F']
+4.6279 	INFO 	sequence 1: ['W', 'V', 'Y', 'Q']
+4.6323 	EXP 	Instructions
+4.9680 	DATA 	Keypress: return
+4.9727 	EXP 	unnamed GratingStim: tex = None
+4.9727 	EXP 	Fixation
+5.4731 	EXP 	Block 0, Sequence 0: ['R', 'X', 'V', 'F']
+5.4751 	EXP 	Fixation
+5.6789 	EXP 	unnamed TextStim: text = 'RXVF'
+5.6789 	EXP 	Square 2/4
+6.4837 	DATA 	Keypress: p
+6.6637 	DATA 	Keypress: q
+7.1816 	EXP 	Trial 0, goForward False, order ['X', 'F', 'R', 'V']
+7.1873 	EXP 	Left Arrow
+7.6925 	EXP 	unnamed TextStim: text = 'X'
+7.6925 	EXP 	letter 1: X
+8.1935 	DATA 	Keypress: return
+8.1970 	EXP 	unnamed TextStim: text = 'F'
+8.1970 	EXP 	letter 2: F
+8.3514 	DATA 	Keypress: p
+8.3559 	EXP 	unnamed TextStim: text = 'R'
+8.3559 	EXP 	letter 3: R
+9.4239 	DATA 	Mouse: Left button down, pos=(409,158)
+9.5071 	DATA 	Mouse:  Left button up, pos=(409,158)
+9.8594 	DATA 	Keypress: p
+9.8631 	EXP 	unnamed TextStim: text = 'V'
+9.8631 	EXP 	letter 4: V
+10.0248 	DATA 	Keypress: q
+10.0329 	EXP 	window1: mouseVisible = True

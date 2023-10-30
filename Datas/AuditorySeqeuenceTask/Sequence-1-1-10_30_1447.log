@@ -1,0 +1,98 @@
+4.1383 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.6643 	INFO 	---START PARAMETERS---
+9.6644 	INFO 	filename: Sequence-1-1-10_30_1447
+9.6644 	INFO 	subject: 1
+9.6644 	INFO 	session: 1
+9.6644 	INFO 	date: 10_30_1447
+9.6644 	INFO 	beatTime: 0.75
+9.6644 	INFO 	chanceOfRepeat: 0.5
+9.6644 	INFO 	delayTime: 6.0
+9.6644 	INFO 	fixCrossPos: (0, 0)
+9.6644 	INFO 	fixCrossSize: 50
+9.6645 	INFO 	fullScreen: True
+9.6645 	INFO 	goSound: numbers/go.wav
+9.6645 	INFO 	maxITI: 9.0
+9.6645 	INFO 	minITI: 6.0
+9.6645 	INFO 	nTrials: 3
+9.6645 	INFO 	previewSound: numbers/next.wav
+9.6645 	INFO 	promptType: Default
+9.6645 	INFO 	randomizeOrder: True
+9.6645 	INFO 	respKeys: ['1', '2']
+9.6645 	INFO 	respTime: 3.0
+9.6645 	INFO 	screenToShow: 0
+9.6645 	INFO 	sequenceSounds: ['numbers/one.wav', 'numbers/two.wav', 'numbers/three.wav', 'numbers/four.wav']
+9.6645 	INFO 	sequences: [[4, 3, 2, 1], [4, 3, 2, 2], [1, 4, 2, 3], [1, 4, 2, 4]]
+9.6645 	INFO 	skipPrompts: False
+9.6645 	INFO 	soundVolume: 1
+9.6645 	INFO 	tStartup: 0.0
+9.6645 	INFO 	trialTime: 3.0
+9.6645 	INFO 	triggerKey: t
+9.6645 	INFO 	usePhotodiode: False
+9.6645 	INFO 	visHeight: 1
+9.6646 	INFO 	wrapWidth: 30
+9.6646 	INFO 	---END PARAMETERS---
+10.6512 	INFO 	Loaded monitor calibration from ['2021_08_18 14:02']
+10.6549 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1440, 900]. Using actual size
+11.2637 	EXP 	Created win = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97541c2b0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc9759a02b0>, multiSample=False, name='win', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1440,  900]), stencilBits=0, stereo=False, units='deg', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.2640 	EXP 	win: mouseVisible = True
+11.2721 	EXP 	Created unnamed ShapeStim = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=False, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=3.0, name='unnamed ShapeStim', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.2774 	EXP 	Created unnamed ShapeStim = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=False, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=3.0, name='unnamed ShapeStim', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.2805 	EXP 	Created unnamed ShapeStim = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=False, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=3.0, name='unnamed ShapeStim', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.2826 	EXP 	Created unnamed ShapeStim = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=False, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=3.0, name='unnamed ShapeStim', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.2846 	EXP 	Created unnamed ShapeStim = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=False, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=3.0, name='unnamed ShapeStim', opacity=0.5, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.2850 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+11.3427 	EXP 	Created topMsg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=1, italic=False, languageStyle='LTR', name='topMsg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='aaa', units='deg', win=Window(...), wrapWidth=30)
+11.3428 	WARNING 	TextStim.alignHoriz is deprecated. Use alignText and anchorHoriz attributes instead
+11.3464 	EXP 	Created bottomMsg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=1, italic=False, languageStyle='LTR', name='bottomMsg', opacity=1.0, ori=0.0, pos=array([  0., -10.]), rgb=UNKNOWN, text='bbb', units='deg', win=Window(...), wrapWidth=30)
+11.3485 	EXP 	Created unnamed Rect = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.5, name='unnamed Rect', opacity=1, ori=0.0, pos=array([-0.9, -0.9]), size=array([0.4, 0.4]), units='norm', vertices=ndarray(...), win=Window(...))
+11.4781 	EXP 	Sound previewSound set volume 1.000
+11.4808 	EXP 	Sound goSound set volume 1.000
+11.4843 	EXP 	Sound sound1 set volume 1.000
+11.4882 	EXP 	Sound sound2 set volume 1.000
+11.4910 	EXP 	Sound sound3 set volume 1.000
+11.4935 	EXP 	Sound sound4 set volume 1.000
+11.5277 	EXP 	topMsg: text = "During this task, you will see a fixation cross that changes colors.Look directly at the cross while it's on the screen."
+11.5277 	EXP 	bottomMsg: text = 'Press any key to continue.'
+11.5277 	EXP 	Display Instructions1
+12.7759 	DATA 	Keypress: return
+13.6668 	DATA 	Keypress: l
+13.6816 	EXP 	topMsg: text = 'On each trial, you will feel two sequences of taps on your fingers. After the second sequence, the cross will turn yellow.'
+13.6816 	EXP 	bottomMsg: text = 'Press any key to continue.'
+13.6816 	EXP 	Display Instructions2
+16.8740 	DATA 	Keypress: l
+16.9006 	EXP 	topMsg: text = 'When the cross turns yellow, press 1 if the two sequences were the same and 2 if they were different.'
+16.9006 	EXP 	bottomMsg: text = "WHEN YOU'RE READY TO BEGIN, press any key."
+16.9006 	EXP 	Display Instructions3
+19.9814 	DATA 	Keypress: p
+19.9966 	EXP 	topMsg: text = 'Waiting for scanner to start...'
+19.9966 	EXP 	bottomMsg: text = "(Press 'T' to override.)"
+19.9966 	EXP 	Display WaitingForScanner
+20.1917 	DATA 	Keypress: q
+20.6439 	DATA 	Keypress: p
+21.0521 	DATA 	Keypress: escape
+22.2392 	DATA 	Keypress: rshift
+22.3437 	DATA 	Keypress: p
+23.0035 	DATA 	Keypress: t
+23.0095 	EXP 	Display Fixation
+23.0099 	EXP 	---START EXPERIMENT---
+23.0100 	EXP 	Trial 0
+23.0101 	EXP 	sequence 1: [1, 4, 2, 4]
+23.0101 	EXP 	sequence 2: [1, 4, 2, 4]
+23.0101 	EXP 	ITI: 8.227550615105867
+23.0146 	EXP 	Display Fixation
+23.4223 	DATA 	Keypress: return
+23.6902 	DATA 	Keypress: escape
+23.9894 	DATA 	Keypress: p
+24.1386 	DATA 	Keypress: q
+24.3144 	DATA 	Keypress: p
+24.4904 	DATA 	Keypress: q
+25.3043 	DATA 	Keypress: return
+25.5683 	DATA 	Keypress: p
+25.7814 	DATA 	Keypress: q
+26.1181 	DATA 	Keypress: escape
+26.7316 	DATA 	Mouse: Left button down, pos=(768,439)
+26.8146 	DATA 	Mouse:  Left button up, pos=(768,439)
+27.3605 	DATA 	Keypress: p
+27.5222 	DATA 	Keypress: q
+28.1483 	DATA 	Mouse: Left button down, pos=(768,439)
+28.9110 	EXP 	win: mouseVisible = True
