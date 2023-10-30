@@ -1,3 +1,0 @@
-isOn	Increment	correct
-1	0.01000	1
-0	0.00800	1

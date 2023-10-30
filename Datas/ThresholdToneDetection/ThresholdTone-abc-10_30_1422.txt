@@ -1,2 +1,0 @@
-key	RT	AbsTime
-return	-198.5	9779.0
