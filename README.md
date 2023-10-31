@@ -8,14 +8,15 @@ This repository sources depend on psychopy library.
 
 ## Installation guideline of psychopy
 
-To run codes, You have to install psychopy library in your computer. I recommend to install psychopy library using conda environment.  
-After download this source, Please open the anaconda command line prompt(or terminal) and go to the this repository path. 
+To run codes, You have to install psychopy library in your computer. I recommend to install psychopy library using conda environment. If you are not familiar with anaconda, please read this article (https://conda.io/projects/conda/en/latest/user-guide/getting-started.html).
+
+After download this repository, Please open the anaconda command line prompt(or terminal) and go to the this repository path. 
 
 Enter this command in the anaconda command line prompt(or terminal).
 ```bash
 conda env create -n psychopy -f psychopy-env.yml
 ```
-The previous command would take much time. Please be patient (In my case, It took 15 minutes). After the command is completed, enter this command in your prompt. If there is no error, the configuration is fully installed.
+The previous command would take much time. Please be patient (In my case, It took 30 minutes). After completed the command, enter following command in your prompt. If there is no error, the configuration is fully installed.
 
 ```bash
 conda activate psychopy
