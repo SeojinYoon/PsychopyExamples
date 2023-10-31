@@ -16,14 +16,16 @@ References
 ## Checked Configuration
 
 Windows 10 (builder version: 22H2)
-- python:
+- python: 
 - psychopy:
 
 Mac (version: 12.6.8)
 - python:
 - psychopy:
 
-# ExperimentSources
+# File structures
+
+## ExperimentSources
 
 There are various kinds of experiment source implemented by psychopy library in ExperimentSources directory. In the sub-directory of the ExperimentSources, I divided experiment sources using type of stimuli, one is visual, the other is auditory. After that, task names follow type of stimuli. Finally, You will see the sources of each experiment.
 
@@ -41,7 +43,9 @@ There are various kinds of experiment source implemented by psychopy library in 
   -  Memory
   -  Motor
 
-# Datas
+## Datas
+
+After running codes, the result of experiment is recorded in the directory. 
 
 # Origin
 
