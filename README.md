@@ -72,7 +72,7 @@ After running codes, the results of experiment will be recorded in the directory
 
 This directory includes multiple utility sources to run experiments.
 
-# Origin
+# License
 
 These sources are adapted from David Jangraw's repository (https://github.com/djangraw/PsychoPyParadigms)
 
