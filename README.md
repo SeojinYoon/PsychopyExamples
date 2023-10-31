@@ -9,26 +9,34 @@ This repository sources depend on psychopy library.
 ## Installation guideline of psychopy
 
 To run codes, You have to install psychopy library in your computer. I recommend to install psychopy library using conda environment.  
-After download this source, Please open the command line prompt(or terminal) and go to the this repository path. 
+After download this source, Please open the anaconda command line prompt(or terminal) and go to the this repository path. 
 
-Enter this command in the command line prompt(or terminal).
+Enter this command in the anaconda command line prompt(or terminal).
 ```bash
 conda env create -n psychopy -f psychopy-env.yml
 ```
-The previous command would take much time. Please be patient (In my case, It took 15 minutes).
+The previous command would take much time. Please be patient (In my case, It took 15 minutes). After the command is completed, enter this command in your prompt. If there is no error, the configuration is fully installed.
+
+```bash
+conda activate psychopy
+```
 
 References 
 - https://www.psychopy.org/download.html
 
-## Checked Configuration
+## Running an experiment code
 
-Windows 10 (builder version: 22H2)
-- python: 3.8.18
-- psychopy: 2022.2.5
+Open the terminal and activate conda environment for psychopy.
 
-Mac (version: 12.6.8)
-- python: 
-- psychopy: 
+```bash
+conda activate psychopy
+```
+
+Go to the source which you want to run and execute experiment code like following line.
+
+```bash
+(psychopy) C:\Users\USER\Desktop\PsychopyExamples\ExperimentSources\Visual\Memory> python ./FourLetterTask.py
+```
 
 # File structures
 
@@ -71,6 +79,16 @@ After running codes, the results of experiment will be recorded in the directory
 ## GeneralTools
 
 This directory includes multiple utility sources to run experiments.
+
+# Checked Configuration
+
+Windows 10 (builder version: 22H2)
+- python: 3.8.18
+- psychopy: 2022.2.5
+
+Mac (version: 12.6.8)
+- python: 
+- psychopy: 
 
 # License
 
