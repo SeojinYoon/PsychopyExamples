@@ -31,35 +31,33 @@ There are various kinds of experiment source implemented by psychopy library in 
 
 - Audio
   - Attention
-      - AuditorySartTask
+      - AuditorySartTask: Implement an audio version of the SART (sustained attention response task) described in Seli 2011 (doi:10.1037/a0025111)
   - Inference
-      - BopItTask
+      - BopItTask: Audio-behavior association task based on the game BopIt.
   - Memory
-      - LearnNonsenseWorks
+      - LearnNonsenseWorks: Play pairs of nonsense words, then display one and the subject must recall the other (multiple-choice questions)
   - Motor
       - AuditorySequenceTask
   - Psychometric
-      - GetPerceptualThreshold
-      - ThresholdToneDetection
-      - ThresholdToneDetection_2AFC
+      - GetPerceptualThreshold/ThresholdToneDetection(_2AFC): use staircasing to find a subject’s audio volume threshold, then periodically play tones near that threshold. _2AFC indicates a 2-alternative forced choice version of this task
   - QA
       - AudioInsterspersedQuestions
       - PlaySoundsWithQuestions
 - Visual
   -  Attention
-      - ColorVigilanceTask
-      - FlankerTask
+      - ColorVigilanceTask: Simple visual vigilance task where a central fixation dot changes color at random intervals.
+      - FlankerTask: Implement the Erikson Flanker Task described in Eichele 2008 (doi: 10.1073/pnas.0708965105)
       - GoNoGoTask_d1
-      - LocalGlobalAttention
-      - NumericalSartTask
+      - LocalGlobalAttention: Implements the local-global attention task as described in Weissman, Nature Neurosci. 2006 (doi: 10.1038/nn1727)
+      - NumericalSartTask: Implement the modified SART (sustained attention response task) described in Morrison 2014 (doi: 10.3389/fnhum.2013.00897)
   -  Interference
       - LetterOrderTask_d1
       - LetterOrderTask_d2
       - LetterOrderTask_d3
   -  Memory
-      - FourLetterTask
+      - FourLetterTask: Implement a visuospatial working memory task described in Mason et al., Science 2007 (doi: 10.1126/science.1131295)
   -  Motor
-      - SequenceLearningTask
+      - SequenceLearningTask: Implement a sequence learning task described in Mason et al., Science 2007 (doi: 10.1126/science.1131295)
         
 ## Datas
 
