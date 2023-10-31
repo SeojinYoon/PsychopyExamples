@@ -1,6 +1,6 @@
 # PsychopyExamples
 
-This repository is designed to assist Hanyang University students in creating experimental sources. 
+This repository is designed to assist Hanyang University students in creating experimental sources (2023-2). 
 
 # Dependency 
 
@@ -31,18 +31,36 @@ There are various kinds of experiment source implemented by psychopy library in 
 
 - Audio
   - Attention
+      - AuditorySartTask
   - Inference
+      - BopItTask
   - Memory
+      - LearnNonsenseWorkds
   - Motor
+      - AuditorySequenceTask
   - Psychometric
+      - GetPerceptualThreshold
+      - ThresholdToneDetection
+      - ThresholdToneDetection_2AFC
   - QA
-  
+      - AudioInsterspersedQuestions
+      - PlaySoundsWithQuestions
 - Visual
   -  Attention
+      - ColorVigilanceTask
+      - FlankerTask
+      - GoNoGoTask_d1
+      - LocalGlobalAttention
+      - NumericalSartTask
   -  Interference
+      - LetterOrderTask_d1
+      - LetterOrderTask_d2
+      - LetterOrderTask_d3
   -  Memory
+      - FourLetterTask
   -  Motor
-
+      - SequenceLearningTask
+        
 ## Datas
 
 After running codes, the result of experiment is recorded in the directory. 
