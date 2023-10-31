@@ -1,4 +1,4 @@
-![image](https://github.com/SeojinYoon/PsychopyExamples/assets/24661958/93f3d06e-1770-4e7d-96c3-290d339f4cd1)# PsychopyExamples
+# PsychopyExamples
 
 This repository is designed to assist Hanyang University students in creating experimental sources (2023-2). 
 
