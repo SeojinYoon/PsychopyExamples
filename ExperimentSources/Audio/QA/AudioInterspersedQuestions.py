@@ -104,16 +104,17 @@ for i in range(0,len(questions_all)):
     
     #display new question
     keys = RunQuestionTrial(question,options,trialDur_sec)
-    
+
     # print trial number
     print("Question %d:" %i)
     # log result
     for key in keys:
+        print(key[0])
         if key[0] == answer:
             print("Correct!")
         else:
             print("Incorrect.")
-        print("Key: %s  RT: %.3f" %(key[0],key[1]*1000))
+        # print("Key: %s  RT: %.3f" %(key[0],key[1]*1000))
     
         # check for end command
         if key[0] in ['escape','q']:

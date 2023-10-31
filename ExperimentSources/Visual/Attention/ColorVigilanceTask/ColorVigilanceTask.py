@@ -6,7 +6,8 @@
 from psychopy import core, gui, data, event, sound, logging#, visual # visual causes a bug in the guis, so I moved it down.
 from psychopy.tools.filetools import fromFile, toFile
 import time, numpy as np
-import AppKit, os # for monitor size detection, files
+from screeninfo import get_monitors
+import os # for monitor size detection, files
 
 import sys
 prj_home = os.popen("git rev-parse --show-toplevel").read()
@@ -79,13 +80,13 @@ dateStr = time.strftime("%b_%d_%H%M", time.localtime()) # add the current time
 #present a dialogue to change params
 dlg = gui.DlgFromDict(expInfo, title='Color Vigilance task', order=['subject','session','paramsFile'])
 if not dlg.OK:
-    core.quit()#the user hit cancel so exit
+    core.quit()
 
 # find parameter file
 if expInfo['paramsFile'] == 'Load...':
     dlgResult = gui.fileOpenDlg(prompt='Select parameters file',
                                 tryFilePath = data_dir_path,
-        allowed="PICKLE files (.pickle)|.pickle|All files (.*)|")
+                                allowed="PICKLE files (.pickle)|.pickle|All files (.*)|")
     expInfo['paramsFile'] = dlgResult[0]
 # load parameter file
 if expInfo['paramsFile'] not in ['DEFAULT', None]: # otherwise, just use defaults.
@@ -122,9 +123,8 @@ from psychopy import visual
 
 # kluge for secondary monitor
 if params['fullScreen'] and params['screenToShow']>0: 
-    screens = AppKit.NSScreen.screens()
-    screenRes = screens[params['screenToShow']].frame().size.width, screens[params['screenToShow']].frame().size.height
-#    screenRes = [1920, 1200]
+    mon = get_monitors()[int(params['screenToShow'])]
+    screenRes = (mon.width, mon.height)
     params['fullScreen'] = False
 else:
     screenRes = [800,600]

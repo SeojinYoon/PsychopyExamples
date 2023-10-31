@@ -8,8 +8,8 @@ from psychopy import core, gui, data, event, sound, logging
 # from psychopy import visual # visual causes a bug in the guis, so it's declared after all GUIs run.
 from psychopy.tools.filetools import fromFile, toFile # saving and loading parameter files
 import time as ts, numpy as np # for timing and array operations
-import AppKit, os, glob # for monitor size detection, files
-from pathlib import Path
+from screeninfo import get_monitors
+import os, glob # for monitor size detection, files
 
 import sys
 prj_home = os.popen("git rev-parse --show-toplevel").read()
@@ -144,9 +144,9 @@ logging.log(level=logging.INFO, msg='---END PARAMETERS---')
 
 # kluge for secondary monitor
 if params['fullScreen']: 
-    screens = AppKit.NSScreen.screens()
-    screenRes = (int(screens[params['screenToShow']].frame().size.width), int(screens[params['screenToShow']].frame().size.height))
-#    screenRes = [1920, 1200]
+    mon = get_monitors()[int(params['screenToShow'])]
+    screenRes = (mon.width, mon.height)
+    params['fullScreen'] = False
     if params['screenToShow']>0:
         params['fullScreen'] = False
 else:

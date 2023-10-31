@@ -119,7 +119,7 @@ for i in range(0,nTrials):
             print("Correct!")
         else:
             print("Incorrect.")
-        print("Key: %s  RT: %.3f" %(key[0],key[1]*1000))
+        # print("Key: %s  RT: %.3f" %(key[0],key[1]*1000))
     
         # check for end command
         if key[0] in ['escape','q']:

@@ -10,7 +10,7 @@ from psychopy import core, gui, data, event, sound, logging #, visual # visual c
 from psychopy.tools.filetools import fromFile, toFile
 import random
 import time, numpy as np
-import AppKit, os # for monitor size detection, files
+from screeninfo import get_monitors
 from pathlib import Path
 import os
 prj_home = os.popen("git rev-parse --show-toplevel").read()
@@ -138,9 +138,8 @@ from psychopy import visual
 
 # kluge for secondary monitor
 if params['fullScreen'] and params['screenToShow']>0: 
-    screens = AppKit.NSScreen.screens()
-    screenRes = screens[params['screenToShow']].frame().size.width, screens[params['screenToShow']].frame().size.height
-#    screenRes = [1920, 1200]
+    mon = get_monitors()[int(params['screenToShow'])]
+    screenRes = (mon.width, mon.height)
     params['fullScreen'] = False
 else:
     screenRes = [800,600]
