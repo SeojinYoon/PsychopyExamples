@@ -16,12 +16,12 @@ References
 ## Checked Configuration
 
 Windows 10 (builder version: 22H2)
-- python: 
-- psychopy:
+- python: 3.8.18
+- psychopy: 2022.2.5
 
 Mac (version: 12.6.8)
-- python:
-- psychopy:
+- python: 
+- psychopy: 
 
 # File structures
 
@@ -35,7 +35,7 @@ There are various kinds of experiment source implemented by psychopy library in 
   - Inference
       - BopItTask
   - Memory
-      - LearnNonsenseWorkds
+      - LearnNonsenseWorks
   - Motor
       - AuditorySequenceTask
   - Psychometric
