@@ -1,14 +1,21 @@
-# PsychopyExamples
+![image](https://github.com/SeojinYoon/PsychopyExamples/assets/24661958/93f3d06e-1770-4e7d-96c3-290d339f4cd1)# PsychopyExamples
 
 This repository is designed to assist Hanyang University students in creating experimental sources (2023-2). 
 
 # Dependency 
 
-The sources of this repository depends on psychopy library.
+This repository sources depend on psychopy library.
 
 ## Installation guideline of psychopy
 
-To run codes, You have to install psychopy library in your computer. I recommend to install psychopy library using conda environment. 
+To run codes, You have to install psychopy library in your computer. I recommend to install psychopy library using conda environment.  
+After download this source, Please open the command line prompt(or terminal) and go to the this repository path. 
+
+Enter this command in the command line prompt(or terminal).
+```bash
+conda env create -n psychopy -f psychopy-env.yml
+```
+The previous command would take much time. Please be patient (In my case, It took 15 minutes).
 
 References 
 - https://www.psychopy.org/download.html
@@ -37,12 +44,12 @@ There are various kinds of experiment source implemented by psychopy library in 
   - Memory
       - LearnNonsenseWorks: Play pairs of nonsense words, then display one and the subject must recall the other (multiple-choice questions)
   - Motor
-      - AuditorySequenceTask
+      - AuditorySequenceTask: Experiment with inputting sequences corresponding to audio
   - Psychometric
       - GetPerceptualThreshold/ThresholdToneDetection(_2AFC): use staircasing to find a subject’s audio volume threshold, then periodically play tones near that threshold. _2AFC indicates a 2-alternative forced choice version of this task
   - QA
-      - AudioInsterspersedQuestions
-      - PlaySoundsWithQuestions
+      - AudioInsterspersedQuestions: Question (Sound) – Answer – Question (Sound) are repeated experiment
+      - PlaySoundsWithQuestions: After playing a certain audio file, ask a question
 - Visual
   -  Attention
       - ColorVigilanceTask: Simple visual vigilance task where a central fixation dot changes color at random intervals.
@@ -51,9 +58,7 @@ There are various kinds of experiment source implemented by psychopy library in 
       - LocalGlobalAttention: Implements the local-global attention task as described in Weissman, Nature Neurosci. 2006 (doi: 10.1038/nn1727)
       - NumericalSartTask: Implement the modified SART (sustained attention response task) described in Morrison 2014 (doi: 10.3389/fnhum.2013.00897)
   -  Interference
-      - LetterOrderTask_d1
-      - LetterOrderTask_d2
-      - LetterOrderTask_d3
+      - LetterOrderTask_d1/_(d2)/_(d3): Perform two tasks alternately (Remember, Alphabetize).
   -  Memory
       - FourLetterTask: Implement a visuospatial working memory task described in Mason et al., Science 2007 (doi: 10.1126/science.1131295)
   -  Motor
@@ -61,7 +66,7 @@ There are various kinds of experiment source implemented by psychopy library in 
         
 ## Datas
 
-After running codes, the result of experiment is recorded in the directory. 
+After running codes, the results of experiment will be recorded in the directory. 
 
 # Origin
 
