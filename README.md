@@ -68,6 +68,10 @@ There are various kinds of experiment source implemented by psychopy library in 
 
 After running codes, the results of experiment will be recorded in the directory. 
 
+## GeneralTools
+
+This directory includes multiple utility sources to run experiments.
+
 # Origin
 
 These sources are adapted from David Jangraw's repository (https://github.com/djangraw/PsychoPyParadigms)
