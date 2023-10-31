@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+
 """Implement a sequence learning task 
 described in Mason et al., Science 2007 (doi: 10.1126/science.1131295)"""
 # SequenceLearningTask.py
