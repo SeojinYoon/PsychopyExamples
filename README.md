@@ -1,6 +1,6 @@
 # PsychopyExamples
 
-This repository is designed to assist Hanyang University students in creating experimental sources (2023-2). 
+This repository is designed to assist Hanyang University students (2023-2). 
 
 # Dependency 
 
