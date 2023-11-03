@@ -8,6 +8,8 @@ This repository sources depend on psychopy library.
 
 ## Installation guideline of psychopy
 
+### Windows
+
 To run codes, You have to install psychopy library in your computer. I recommend to install psychopy library using conda environment. If you are not familiar with anaconda, please read this article (https://conda.io/projects/conda/en/latest/user-guide/getting-started.html).
 
 After download this repository, Please open the anaconda command line prompt(or terminal) and go to the this repository path. 
@@ -24,6 +26,14 @@ conda activate psychopy
 
 References 
 - https://www.psychopy.org/download.html
+
+### Mac (intel)
+
+### Mac (Apple Silicon) ex: M1
+
+Please refer to this document.
+
+https://github.com/waltervanheuven/psychopy-on-M1/blob/main/v2023.2.3.md
 
 ## Running an experiment code
 
