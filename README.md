@@ -6,7 +6,7 @@ This repository is designed to assist Hanyang University students (2023-2).
 
 This repository sources depend on psychopy library.
 
-## Installation guideline of psychopy
+## Psychopy installation guideline
 
 ### Windows
 
@@ -32,6 +32,12 @@ References
 ```bash
 conda create -n psychopy python=3.8
 pip install psychopy
+pip install pygame
+conda install pyaudio
+pip install pyo==1.0.4
+pip install pyparallel==0.2.2
+pip install websocket-client==1.6.4
+pip install screeninfo==0.8.1
 ```
 
 ### Mac (Apple Silicon) ex: M1
