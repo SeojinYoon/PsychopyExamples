@@ -30,6 +30,8 @@ References
 ### Mac (intel)
 
 ```bash
+brew install portaudio
+
 conda create -n psychopy python=3.8
 pip install psychopy==2021.2.3
 pip install pygame==2.1.2
