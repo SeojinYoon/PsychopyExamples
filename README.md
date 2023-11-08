@@ -16,7 +16,7 @@ After download this repository, Please open the anaconda command line prompt(or 
 
 Enter this command in the anaconda command line prompt(or terminal).
 ```bash
-conda env create -n psychopy -f psychopy-env.yml
+conda env create -n psychopy -f psychopy-env_windows.yml
 ```
 The previous command would take much time. Please be patient (In my case, It took 15 minutes). After completed the command, enter following command in your prompt. If there is no error, the configuration is fully installed.
 
