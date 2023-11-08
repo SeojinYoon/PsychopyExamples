@@ -34,10 +34,13 @@ Please open terminal and run the following lines.
 ```bash
 brew install portaudio
 
-conda create -n psychopy python=3.8
+conda create -n psychopy python=3.8.11
+pip install numpy==1.22.3
+pip install pyo==1.0.4
+pip install pyglet==1.5.10
+pip install psychtoolbox==3.0.17.8
 pip install psychopy==2021.2.3
 pip install pygame==2.1.2
-pip install pyo==1.0.4
 pip install websocket-client==1.2.1
 pip install screeninfo==0.7
 ```
