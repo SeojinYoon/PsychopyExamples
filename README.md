@@ -16,7 +16,7 @@ After download this repository, Please open the anaconda command line prompt(or 
 
 Enter this command in the anaconda command line prompt(or terminal).
 ```bash
-conda env create -n psychopy -f psychopy-env.yml
+conda env create -n psychopy -f psychopy-env_windows.yml
 ```
 The previous command would take much time. Please be patient (In my case, It took 15 minutes). After completed the command, enter following command in your prompt. If there is no error, the configuration is fully installed.
 
@@ -29,14 +29,20 @@ References
 
 ### Mac (intel)
 
+Please open terminal and run the following lines.
+
 ```bash
-conda create -n psychopy python=3.8
-pip install psychopy==2023.2.3
-pip install pygame==2.5.2
+brew install portaudio
+
+conda create -n psychopy python=3.8.11
+pip install numpy==1.22.3
 pip install pyo==1.0.4
-pip install pyparallel==0.2.2
-pip install websocket-client==1.6.4
-pip install screeninfo==0.8.1
+pip install pyglet==1.5.10
+pip install psychtoolbox==3.0.17.8
+pip install psychopy==2021.2.3
+pip install pygame==2.1.2
+pip install websocket-client==1.2.1
+pip install screeninfo==0.7
 ```
 
 ### Mac (Apple Silicon) ex: M1
@@ -63,7 +69,7 @@ Go to the source which you want to run and execute experiment code like followin
 
 ## ExperimentSources
 
-There are various kinds of experiment source implemented by psychopy library in ExperimentSources directory. In the sub-directory of the ExperimentSources, I divided experiment sources using type of stimuli, one is visual, the other is auditory. After that, task names follow type of stimuli. Finally, You will see the sources of each experiment.
+There are various kinds of experiment source implemented by psychopy library in ExperimentSources directory. In the sub-directory of the ExperimentSources, I divided experiment sources using type of stimuli, one is visual, the other is auditory. After that, task name follows type of stimuli. Finally, You will see the sources of each experiment.
 
 - Audio
   - Attention
@@ -108,8 +114,8 @@ Windows 10 (builder version: 22H2)
 - psychopy: 2022.2.5
 
 Mac (version: 12.6.8)
-- python: 
-- psychopy: 
+- python: 3.8.11
+- psychopy: 2021.2.3
 
 # License
 
