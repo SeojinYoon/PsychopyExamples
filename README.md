@@ -27,15 +27,6 @@ conda activate psychopy
 References 
 - https://www.psychopy.org/download.html
 
-#### video library (windows)
-
-If you want to use video, install the following libraries
-
-```bash
-pip install python-vlc
-pip install imageio-ffmpeg
-```
-
 ### Mac (intel)
 
 Please open terminal and run the following lines.
@@ -54,20 +45,29 @@ pip install websocket-client==1.2.1
 pip install screeninfo==0.7
 ```
 
-#### video library (mac-intel)
-
-If you want to use movie stimuli, install the following libraries
-
-```bash
-pip install moviepy
-brew install vlc
-```
-
 ### Mac (Apple Silicon) ex: M1
 
 Please refer to this document.
 
 https://github.com/waltervanheuven/psychopy-on-M1/blob/main/v2023.2.3.md
+
+# video library 
+
+If you want to use video stimuli, install the following libraries
+
+## windows
+
+```bash
+pip install python-vlc
+pip install imageio-ffmpeg
+```
+
+## mac (intel)
+
+```bash
+pip install moviepy
+brew install vlc
+```
 
 ## Running an experiment code
 
