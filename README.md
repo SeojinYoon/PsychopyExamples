@@ -51,7 +51,7 @@ Please refer to this document.
 
 https://github.com/waltervanheuven/psychopy-on-M1/blob/main/v2023.2.3.md
 
-# video library 
+# video libraries
 
 If you want to use video stimuli, install the following libraries
 
