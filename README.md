@@ -27,6 +27,15 @@ conda activate psychopy
 References 
 - https://www.psychopy.org/download.html
 
+#### video library
+
+If you want to use video, install the following libraries
+
+```bash
+pip install python-vlc
+pip install imageio-ffmpeg
+```
+
 ### Mac (intel)
 
 Please open terminal and run the following lines.
@@ -98,7 +107,11 @@ There are various kinds of experiment source implemented by psychopy library in 
       - FourLetterTask: Implement a visuospatial working memory task described in Mason et al., Science 2007 (doi: 10.1126/science.1131295)
   -  Motor
       - SequenceLearningTask: Implement a sequence learning task described in Mason et al., Science 2007 (doi: 10.1126/science.1131295)
-        
+  -  Movie (Demo)
+      - MoviePause: Stop movie after a specific frame
+      - MovieStim2: Movie operation - start, restart, forward, backward, volume
+      - VlcMovieStim: Movie operation - start, restart, forward, backward, volume
+          
 ## Datas
 
 After running codes, the results of experiment will be recorded in the directory. 
