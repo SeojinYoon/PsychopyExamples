@@ -29,6 +29,8 @@ References
 
 ### Mac (intel)
 
+Please open terminal and run the following lines.
+
 ```bash
 brew install portaudio
 
