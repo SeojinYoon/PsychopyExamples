@@ -31,12 +31,11 @@ References
 
 ```bash
 conda create -n psychopy python=3.8
-pip install psychopy==2023.2.3
-pip install pygame==2.5.2
+pip install psychopy==2021.2.3
+pip install pygame==2.1.2
 pip install pyo==1.0.4
-pip install pyparallel==0.2.2
-pip install websocket-client==1.6.4
-pip install screeninfo==0.8.1
+pip install websocket-client==1.2.1
+pip install screeninfo==0.7
 ```
 
 ### Mac (Apple Silicon) ex: M1
@@ -108,8 +107,8 @@ Windows 10 (builder version: 22H2)
 - psychopy: 2022.2.5
 
 Mac (version: 12.6.8)
-- python: 
-- psychopy: 
+- python: 3.8.11
+- psychopy: 2021.2.3
 
 # License
 
