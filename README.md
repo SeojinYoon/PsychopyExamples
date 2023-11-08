@@ -69,7 +69,7 @@ Go to the source which you want to run and execute experiment code like followin
 
 ## ExperimentSources
 
-There are various kinds of experiment source implemented by psychopy library in ExperimentSources directory. In the sub-directory of the ExperimentSources, I divided experiment sources using type of stimuli, one is visual, the other is auditory. After that, task names follow type of stimuli. Finally, You will see the sources of each experiment.
+There are various kinds of experiment source implemented by psychopy library in ExperimentSources directory. In the sub-directory of the ExperimentSources, I divided experiment sources using type of stimuli, one is visual, the other is auditory. After that, task name follows type of stimuli. Finally, You will see the sources of each experiment.
 
 - Audio
   - Attention
